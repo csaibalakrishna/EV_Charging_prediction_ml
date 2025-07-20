@@ -2,7 +2,7 @@
 This project focuses on predicting the future demand for Electric Vehicles (EVs) using real-world data and machine learning techniques. The goal is to analyze patterns in historical EV usage and infrastructure data to forecast upcoming demand, aiding stakeholders in sustainable transportation planning and investment.
 
 📌 Project Overview
-The electric vehicle industry is growing rapidly due to increasing environmental concerns and supportive government policies. Accurate demand forecasting can help manufacturers, governments, and infrastructure providers make informed decisions.
+The electric vehicle industry is growing rapidly due to  increasing environmental concerns and supportive government policies. Accurate demand forecasting can help manufacturers, governments, and infrastructure providers make informed decisions.
 
 This project:
 
