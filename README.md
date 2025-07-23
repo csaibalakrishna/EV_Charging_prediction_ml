@@ -1,68 +1,20 @@
-🚗 EV Demand Prediction Using Machine Learning
-This project focuses on predicting the future demand for Electric Vehicles (EVs) using real-world data and machine learning techniques. The goal is to analyze patterns in historical EV usage and infrastructure data to forecast upcoming demand, aiding stakeholders in sustainable transportation planning and investment.
+EV Adoption Forecasting
+As electric vehicle (EV) adoption surges, urban planners need to anticipate infrastructure needs—especially charging stations. Inadequate planning can lead to bottlenecks, impacting user satisfaction and hindering sustainability goals.
 
-📌 Project Overview
-The electric vehicle industry is growing rapidly due to  increasing environmental concerns and supportive government policies. Accurate demand forecasting can help manufacturers, governments, and infrastructure providers make informed decisions.
+Problem Statement: Using the electric vehicle dataset (which includes information on EV populations, vehicle types, and possibly historical charging usage), create a model to forecast future EV adoption. For example, predict the number of electric vehicles in upcoming years based on the trends in the data.
 
-This project:
+Goal: Build a regression model that forecasts future EV adoption demand based on historical trends in EV growth, types of vehicles, and regional data.
 
-Uses a real-world dataset provided during a technical program.
+Dataset: This dataset shows the number of vehicles that were registered by the Washington State Department of Licensing (DOL) each month. The data is separated by county for passenger vehicles and trucks.
 
-Applies machine learning to forecast EV demand.
-
-Emphasizes data preprocessing, feature engineering, model training, and result visualization.
-✅ Tasks Completed (Week 1)
-✅ Dataset received from organization
-
-✅ Removed null values and handled missing data
-
-✅ Detected and removed outliers
-
-✅ Performed basic statistical analysis (mean, std, correlation)
-
-✅ Exploratory Data Analysis initiated
-
-📈 Visualizations planned with seaborn and matplotlib
-
-🔧 Tech Stack
-Language: Python 3.x
-
-Libraries: pandas, numpy, seaborn, matplotlib, scikit-learn
-
-ML Model: Random Forest Regressor (baseline)
-
-🧪 ML Workflow
-Data Collection – Real-world EV dataset
-
-Preprocessing – Null value treatment, outlier removal, encoding
-
-EDA – Distribution plots, correlation matrices
-
-Modeling – Initial training with Random Forest
-
-Evaluation – RMSE, MAE, R² score
-
-Future – Try ensemble methods or boosting (if time permits)
-
-📊 Visualizations
-EV Sales Trends Over Time
-
-Region-wise EV Demand
-
-Feature Importance from Random Forest
-
-Prediction vs Actual Graph
-
-📍 Next Steps (Week 2 Plan)
-Feature encoding and scaling
-
-Train/test split and baseline model training
-
-Hyperparameter tuning for Random Forest
-
-Compare with Gradient Boosting and XGBoost (optional)
-
-Model evaluation and visualization
-
-📌 Note
-This project is an academic, skill-building initiative focused on sustainable innovation using AI/ML. All insights are exploratory and educational.
+Date: Counts of registered vehicles are taken on this day (the end of this month). - 2017-01-31 2024-02-29
+County: This is the geographic region of a state where a vehicle's owner is listed to reside within. Vehicles registered in Washington
+State: This is the geographic region of the country associated with the record. These addresses may be located in other
+Vehicle Primary Use: This describes the primary intended use of the vehicle.(Passenger-83%, Truck-17%)
+Battery Electric Vehicles (BEVs): The count of vehicles that are known to be propelled solely by an energy derived from an onboard electric battery.
+Plug-In Hybrid Electric Vehicles (PHEVs): The count of vehicles that are known to be propelled from energy partially sourced from an onboard electric battery
+Electric Vehicle (EV) Total: The sum of Battery Electric Vehicles (BEVs) and Plug-in Hybrid Electric Vehicles (PHEVs).
+Non-Electric Vehicle Total: The count of vehicles that are not electric vehicles.
+Total Vehicles: All powered vehicles registered in the county. This includes electric cars.
+Percent Electric Vehicles: Comparison of electric vehicles versus their non-electric counterparts.
+Dataset Link: https://www.kaggle.com/datasets/sahirmaharajj/electric-vehicle-population-size-2024/data
